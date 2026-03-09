@@ -6,6 +6,10 @@
 *.backup
 *~
 
+# Editor
+*.swp
+*.swo
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -21,3 +25,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# detect-secrets baseline — committed, not ignored
+!.secrets.baseline
